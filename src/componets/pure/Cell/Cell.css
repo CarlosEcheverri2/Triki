@@ -1,0 +1,10 @@
+.cell-container{
+    border: solid #555 3px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: #fff;
+    cursor: pointer;
+}

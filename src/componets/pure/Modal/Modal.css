@@ -1,0 +1,50 @@
+.modal-background{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0007;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container{
+    width: 350px;
+    height: 220px;
+    background-color: rgb(42, 42, 55);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal-container p{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.modal-container button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+.modal-container button:hover {
+    border-color: #646cff;
+  }
+.modal-container button:focus,
+.modal-container button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+
+

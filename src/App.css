@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  
+  margin: 0 auto;
+  text-align: center;
+}
+
+body{
+  background-color: rgb(42, 42, 55);
+  min-width: 360px;
+}
+
+h1{
+  color: #4c789f ;
+}
+
