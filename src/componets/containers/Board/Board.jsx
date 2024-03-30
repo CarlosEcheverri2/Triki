@@ -61,7 +61,7 @@ const Board = () => {
     setCellElements( newBoard )
     const resultCheck = checkWinner( newBoard ) 
     if( resultCheck ){
-        setWinner( true )
+        setWinner( resultCheck )
         return
     }
 
@@ -98,7 +98,7 @@ const Board = () => {
             <Modal
                 message = { 
                     winner 
-                    ? `Felicitaciones <br> el ganador es ${ winner }`
+                    ? `Felicitaciones el ganador es "${ winner }"`
                     : "La partida culmino en empate" 
                 }
                 resetGame = { resetGame }
